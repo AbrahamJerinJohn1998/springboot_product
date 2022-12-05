@@ -31,4 +31,9 @@ public class productcontroller {
     {
         return "Product search";
     }
+    @GetMapping("/view")
+    public String view()
+    {
+        return "Product view";
+    }
 }
