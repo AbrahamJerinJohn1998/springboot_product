@@ -16,4 +16,14 @@ public class productcontroller {
     {
         return "Product add";
     }
+    @GetMapping("/edit")
+    public String edit()
+    {
+        return "Product edit";
+    }
+    @GetMapping("/delete")
+    public String delete()
+    {
+        return "Product delete";
+    }
 }
