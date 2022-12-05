@@ -11,4 +11,9 @@ public class productcontroller {
     {
         return "Welcome Home";
     }
+    @GetMapping("/add")
+    public String add()
+    {
+        return "Product add";
+    }
 }
