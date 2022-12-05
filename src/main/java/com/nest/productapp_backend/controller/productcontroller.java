@@ -2,36 +2,37 @@ package com.nest.productapp_backend.controller;
 
 
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class productcontroller {
-    @GetMapping("/")
+    @PostMapping("/")
     public String homepage()
     {
         return "Welcome Home";
     }
-    @GetMapping("/add")
+    @PostMapping("/add")
     public String add()
     {
         return "Product add";
     }
-    @GetMapping("/edit")
+    @PostMapping("/edit")
     public String edit()
     {
         return "Product edit";
     }
-    @GetMapping("/delete")
+    @PostMapping("/delete")
     public String delete()
     {
         return "Product delete";
     }
-    @GetMapping("/search")
+    @PostMapping("/search")
     public String search()
     {
         return "Product search";
     }
-    @GetMapping("/view")
+    @PostMapping("/view")
     public String view()
     {
         return "Product view";
