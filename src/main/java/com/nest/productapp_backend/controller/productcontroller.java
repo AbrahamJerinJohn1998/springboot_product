@@ -26,4 +26,9 @@ public class productcontroller {
     {
         return "Product delete";
     }
+    @GetMapping("/search")
+    public String search()
+    {
+        return "Product search";
+    }
 }
