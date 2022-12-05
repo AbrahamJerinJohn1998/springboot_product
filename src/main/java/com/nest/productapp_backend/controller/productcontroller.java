@@ -21,4 +21,9 @@ public class productcontroller {
     {
         return "Product edit";
     }
+    @GetMapping("/delete")
+    public String delete()
+    {
+        return "Product delete";
+    }
 }
